@@ -31,8 +31,23 @@ The concept builds on the idea of **unpredictability and persistence**. The endl
 | 12       | Tape     | 1         |              |
 | 13       | Hot glue stick| 1    |              |
 ### Mechanical Assembly
-* Build the box using laser cutting
+* Prototype:
+  * smaller-scale box (for curf testing)
+ 
+    <img src="images/small_scale_prototype.png" width=150, height=200> 
+  * normal-scale box
 
-  <img src="images/laser_cutting.jpg" width=150, height=200> 
-* Install the servo motors for the lid, arm, and rotation mechanism 
+    <img src="images/box_prototype_top.png" width=150, height=200> <img     src="images/box_prototype_bottom.png" width=150, height=200> 
+* Build the box using laser cutting
+* Install the servo motors for the lid, arm, and rotation mechanism
+
+  <img src="images/electronic_placement.png" width=150, height=200>
 * Secure the motion sensor in positions where it can effectively detect outer movements.  
+### Electronic Integration
+* Electronic diagram
+
+  <img src="images/electronic_diagram.png" width=350, height=400>
+* Connect components to the microcontroller: the switch and LED are linked to the input-output pins; servo motors and motion sensors are properly programmed
+
+  <img src="images/electronic_diagram.png" width=350, height=400>
+* Making sure that the power supply is efficient for all components 
