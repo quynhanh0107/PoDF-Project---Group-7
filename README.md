@@ -1,5 +1,8 @@
 # Useless Box Project
 ## Hero Shot of Final Product
+
+<img src="images/hero_shot.png" width=250, height=300>
+
 ## Concept 
 The **Useless Box** is a playful and interactive toy box that reacts to the outer movements. As its core, the toy box takes **defense mechanisms**, preventing any attempts to turn on the LED that is attached to the lid of the box. This can be achieved through a combination of mechanical movement, motion sensing, sound effects that make the interaction almost feel like a playful battle between human and machine.\
 The concept builds on the idea of **unpredictability and persistence**. The endless loop of interaction makes the user feel challenged, entertained, and curious to see what happens next. Hence, the toy box is more than just a simple gadget but an engaging experience that showcases **human-machine interactions** in a fun way.
@@ -49,5 +52,28 @@ The concept builds on the idea of **unpredictability and persistence**. The endl
   <img src="images/electronic_diagram.png" width=350, height=400>
 * Connect components to the microcontroller: the switch and LED are linked to the input-output pins; servo motors and motion sensors are properly programmed
 
-  <img src="images/electronic_diagram.png" width=350, height=400>
-* Making sure that the power supply is efficient for all components 
+  <img src="images/electronic_before_box.png" width=200, height=250>
+* Making sure that the power supply is efficient for all components
+### Programming and Logic Integration
+* Write the code to handle:
+  * Switch activation and LED control 
+  * The toy’s arm extending to turn off the switch Motion sensor detection responses (opening the lid, popping out the toy, playing sounds)
+  * Rotation of the box when several attempts are made.
+### Testing
+* Carry out multiple tests to ensure smooth operation  
+## Technologies Used
+* Hardware: Arduino / microcontroller, sensors (motion/IR), LED, servo motors, toy box structure
+* Software: Embedded C / Arduino code for controlling sensors, motors, and LED
+* Fabrication: 3D printing, laser cutting, simple woodworking (depending on build)
+## How to Use
+1. Power on the Useless Box.
+2. Try to switch on the LED attached to the lid.
+3. Watch as the box resists, moves, or reacts to your attempts.
+4. Repeat endlessly—the box never gives up!
+## Future Improvements
+* Add sound effects for a more immersive experience
+* Implement multiple difficulty levels or randomized defense behaviors
+* Improve mechanical design for smoother movements
+## Acknowledgement
+Inspired by the classic “Useless Machine” concept, reimagined as a **smart, playful, and interactive** toy to explore **human–machine interaction** in a fun way.
+
